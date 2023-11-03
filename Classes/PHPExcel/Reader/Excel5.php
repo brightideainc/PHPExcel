@@ -7297,7 +7297,7 @@ class PHPExcel_Reader_Excel5 extends PHPExcel_Reader_Abstract implements PHPExce
         $r = ord($rgb[0]);
 
         // offset: 1; size: 1; Green component
-        $g = ord($rgb{1});
+        $g = ord($rgb[1]);
 
         // offset: 2; size: 1; Blue component
         $b = ord($rgb[2]);
